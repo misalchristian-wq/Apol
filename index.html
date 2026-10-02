@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#234e3c">
+  <title>Evergreen — Welcome back</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="login-shell">
+    <section class="nature-panel" aria-label="Illustrated misty forest landscape">
+      <svg class="landscape" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs>
+          <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#a9bab0"/><stop offset=".6" stop-color="#dce1cf"/><stop offset="1" stop-color="#a4b8a3"/></linearGradient>
+          <linearGradient id="front" x2="0" y2="1"><stop stop-color="#315b49"/><stop offset="1" stop-color="#122f27"/></linearGradient>
+          <linearGradient id="shade" x2="0" y2="1"><stop stop-color="#14362b" stop-opacity=".12"/><stop offset=".5" stop-color="#173e31" stop-opacity="0"/><stop offset="1" stop-color="#102c23" stop-opacity=".75"/></linearGradient>
+          <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+          <symbol id="pine" viewBox="0 0 100 220"><path d="M48 220h5V65h-5z" fill="currentColor"/><path d="M50 0 32 47h10L24 78h13L16 114h17L8 152h23L0 190h100l-31-38h23l-25-38h17L63 78h13L58 47h10z" fill="currentColor"/></symbol>
+        </defs>
+        <path fill="url(#sky)" d="M0 0h800v1000H0z"/>
+        <circle cx="573" cy="230" r="68" fill="#f1edcf" opacity=".72"/>
+        <path d="M-80 498 91 333l77 49 148-174 135 163 81-76 245 225v480H0z" fill="#93a99b"/>
+        <path d="m316 208-80 99 68-27 37 22 35-21z" fill="#dbe0d1" opacity=".6"/>
+        <path d="m-60 558 188-137 114 68 141-126 161 143 89-76 167 126v444H0z" fill="#779583"/>
+        <path d="M0 613q180-155 337-38t463-52v477H0" fill="#5f816c"/>
+        <g color="#628371" opacity=".8">
+          <use href="#pine" x="12" y="471" width="69" height="152"/><use href="#pine" x="66" y="494" width="55" height="120"/><use href="#pine" x="129" y="473" width="81" height="175"/><use href="#pine" x="205" y="526" width="54" height="119"/><use href="#pine" x="622" y="457" width="70" height="154"/><use href="#pine" x="674" y="415" width="83" height="183"/><use href="#pine" x="733" y="475" width="70" height="154"/>
+        </g>
+        <g fill="#dde3d3" opacity=".5" filter="url(#blur)"><path d="M-60 591q216-54 457 16t470-52v59q-267 76-511 12T-60 654z"/><path d="M92 722q300-79 691-24v40q-400-18-691 21z"/></g>
+        <path d="M0 713q153-74 323 65t477-147v369H0" fill="#416d56"/>
+        <path d="M503 689q-86 89-53 140t-91 171h109q104-107 52-166t29-145z" fill="#bbcabc" opacity=".42"/>
+        <g color="#345d48"><use href="#pine" x="514" y="568" width="95" height="209"/><use href="#pine" x="585" y="548" width="114" height="250"/><use href="#pine" x="688" y="503" width="140" height="307"/><use href="#pine" x="-36" y="611" width="115" height="253"/><use href="#pine" x="55" y="651" width="87" height="192"/><use href="#pine" x="133" y="643" width="102" height="224"/></g>
+        <path d="M0 837q155-61 319 53t481-83v193H0" fill="url(#front)"/>
+        <g color="#193e30"><use href="#pine" x="-70" y="520" width="208" height="458"/><use href="#pine" x="64" y="691" width="130" height="286"/><use href="#pine" x="637" y="646" width="159" height="350"/><use href="#pine" x="740" y="532" width="187" height="411"/></g>
+        <path fill="url(#shade)" d="M0 0h800v1000H0z"/>
+      </svg>
+      <a class="brand" href="./" aria-label="Evergreen home"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M25 5C10 4 4 12 8 22c11 5 19-3 17-17Z" stroke="currentColor" stroke-width="1.8"/><path d="M6 27 21 11M12 21v-8m0 8h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>evergreen<span class="brand-dot">.</span></span></a>
+      <div class="nature-copy"><span class="eyebrow"><i></i> A LITTLE SPACE TO GROW</span><h1>Rooted in nature.<br>Made for you.</h1><p>Take a breath. Find your balance.<br>Your next chapter starts here.</p><div class="landscape-caption"><span class="caption-line"></span> GROW AT YOUR OWN PACE</div></div>
+      <span class="panel-footer">A calmer connection, every day.</span>
+    </section>
+    <section class="form-panel">
+      <div class="top-note">New around here? <a href="mailto:hello@evergreen.example" id="signup-link">Join the community <span aria-hidden="true">↗</span></a></div>
+      <div class="form-content">
+        <div class="leaf-badge" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M25 6C11 5 5 12 9 22c11 4 18-3 16-16Z" stroke="currentColor" stroke-width="1.5"/><path d="m7 26 14-15m-9 9v-6m0 6h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+        <span class="form-eyebrow">YOUR EVERYDAY SANCTUARY</span>
+        <h2>Welcome back.</h2>
+        <p class="intro">Good to see you again. Make yourself at home.</p>
+        <form id="login-form">
+          <label for="email">Email address</label>
+          <div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required></div>
+          <label for="password">Password</label>
+          <div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/></svg><input id="password" name="password" type="password" placeholder="Enter your password" autocomplete="current-password" required minlength="8"><button class="password-toggle" type="button" aria-label="Show password" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6-10-6-10-6Z"/><circle cx="12" cy="12" r="2.5"/></svg></button></div>
+          <div class="form-options"><label class="remember"><input type="checkbox" name="remember"><span>Remember me</span></label><button class="text-button" id="forgot-password" type="button">Forgot password?</button></div>
+          <button type="submit" class="sign-in">Sign in <span aria-hidden="true">→</span></button>
+          <p id="form-status" class="form-status" role="status" hidden></p>
+        </form>
+        <div class="divider"><span></span><p>or continue with</p><span></span></div>
+        <button type="button" class="google-button" id="google-signin"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M21.6 12.2c0-.7-.1-1.4-.2-2.1H12v4h5.4a4.6 4.6 0 0 1-2 3v2.5h3.3c1.9-1.7 2.9-4.2 2.9-7.4Z"/><path fill="#34A853" d="M12 22c2.7 0 5-.9 6.7-2.4L15.4 17c-.9.6-2 .9-3.4.9-2.6 0-4.9-1.8-5.7-4.2H2.9v2.6A10 10 0 0 0 12 22Z"/><path fill="#FBBC05" d="M6.3 13.7a6 6 0 0 1 0-3.4V7.7H2.9a10 10 0 0 0 0 8.6l3.4-2.6Z"/><path fill="#EA4335" d="M12 6.1c1.5 0 2.8.5 3.8 1.5l2.9-2.9A9.6 9.6 0 0 0 12 2a10 10 0 0 0-9.1 5.7l3.4 2.6C7.1 7.9 9.4 6.1 12 6.1Z"/></svg>Google</button>
+        <p class="privacy-note"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m10 2 6 3v5c0 4-6 7-6 7s-6-3-6-7V5z"/><path d="m7 9 2 2 4-4"/></svg>A little peace of mind. Your information stays private.</p>
+      </div>
+      <footer class="form-footer"><span>© <span id="year">2026</span> Evergreen</span><div><button class="text-button" data-info="Privacy policy" type="button">Privacy</button><span class="footer-dot">·</span><button class="text-button" data-info="Terms of service" type="button">Terms</button><span class="footer-dot">·</span><a href="mailto:hello@evergreen.example">Get in touch ↗</a></div></footer>
+    </section>
+  </main>
+  <dialog id="info-dialog"><button id="close-dialog" type="button" aria-label="Close dialog">×</button><h2 id="dialog-title"></h2><p id="dialog-copy"></p></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
